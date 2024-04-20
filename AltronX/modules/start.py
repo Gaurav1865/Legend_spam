@@ -8,11 +8,11 @@ PythonButton = [
         Button.inline("💎 𝐂σммαиԃ𝐒 💎", data="help_back")
         ],
         [
-        Button.url("💞 𝗞คмєєиค 💞", "https://t.me/BRANDED_KAMEENAA"),
-        Button.url("💖 𝐒υρρσя𝐓 💖", "https://t.me/TEAM_CDX")
+        Button.url("💞 𝗞คмєєиค 💞", "https://t.me/l_L3G3ND_l"),
+        Button.url("💖 𝐒υρρσя𝐓 💖", "https://t.me/ll_L3G3ND_ll")
         ],
         [
-        Button.url("☆ 𝗖ⓞ𝗗𝗘𝗫 ☆", "https://t.me/TEAM_CDX")
+        Button.url("☆ 𝗖ⓞ𝗗𝗘𝗫 ☆", "https://t.me/ll_L3G3ND_ll")
         ]
         ]
 
@@ -34,7 +34,7 @@ async def start(event):
         BotName = AltBot.first_name
         BotId = AltBot.id
         TEXT = f"**𝐇𝐞𝐲 [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\n𝐈 𝐀𝐦 [{BotName}](tg://user?id={BotId})​**\n━━━━━━━━━━━━━━━━━━━\n\n"
-        TEXT += f"» **✦ 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐃 𝐁𝐘 :~ [☆𝗖ⓞ𝗗𝗘𝗫☆](https://t.me/BRANDED_KAMEENAA)**\n\n"
+        TEXT += f"» **✦ 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐃 𝐁𝐘 :~ [☆𝗖ⓞ𝗗𝗘𝗫☆](https://t.me/l_L3G3ND_l)**\n\n"
         TEXT += f"» **𝗖ⓞ𝗗𝗘𝗫 𝐕𝐄𝐑𝐒𝐈𝐎𝐍 :** `3.2`\n"
         TEXT += f"» **𝐓𝐄𝐋𝐄𝐓𝐇𝐎𝐍 𝐕𝐄𝐑𝐒𝐈𝐎𝐍:** `{telethon.__version__}`\n━━━━━━━━━━━━━━━━━"
         await event.client.send_file(
